@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 /*Generics*/
 
@@ -14,6 +15,29 @@ header{
     background-color: white;
 }
 
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+h1{
+    display: inline; 
+    font-size: 55px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+/*header*/
+
 #logo{
     height: 80px;
     width: 80px;
@@ -21,12 +45,4 @@ header{
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
-}
-
-h1{
-   display: inline; 
-   font-size: 55px;
-   vertical-align: middle;
-   font-family: Inter, Arial, Helvetica, sans-serif;
-   font-weight: 900;
 }
