@@ -30,11 +30,15 @@ h1{
 
 a{
     text-decoration: none;
-    color: white;
-    background-color: blue;
     border-radius: 5px;
     padding: 10px 5px;
+    
 }
+
+h2{
+    display: inline;
+}
+
 
 /*header*/
 
@@ -46,3 +50,38 @@ a{
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+/*button link*/
+.add-task{
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+}
+
+.add-section{
+    color: gray;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+}
+
+.button{
+    margin: 0 30px;
+    padding: 20px 5px;
+    vertical-align: middle;
+}
+
+/*separator*/
+.separator{
+    margin: 5px 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #bdd9fdde;
+}
+
+/*list*/
+.list-task{
+    list-style-type: none;
+}
+
